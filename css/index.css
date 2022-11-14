@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "ApfelGrotezk";
+    src: url(../ApfelGrotezk-Regular.woff)
+}
+
+html {
+    background-color: #EAF3F3;
+}
+
+
+.body {
+    color: #EAF3F3;
+    font-family: Inter;
+    font-size: 15px;
+}
+
+.logo {
+    background:#EAF3F3;
+    height: 200px;
+    background-image: url("../images/header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+  }
+  
+  .nav {
+    display: flex;
+    background-color: #EAF3F3;
+    padding: 20px;
+  }
+  
+  .center {
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center {
+    width: 100%;
+  }
+  
+  .center a {
+    color: #000000;
+    padding: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Inter;
+  }
+
+  .center a:hover {
+    color: #A3BFBF;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Inter;
+  }
+  
+  /* Column styles */
+  
+  .about, .skills, .interests {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+  }
+  
+  .text {
+    background: #FFFFFF;
+    width: 100%;
+    padding: 20px 40px;
+    color: #000000;
+    position: relative;
+  }
+  .text p {
+    color: #000000;
+    font-family: Inter;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .text h1 {
+    font-family: ApfelGrotezk;
+    font-weight: 900;
+    font-size: 35px;
+    color: #A3BFBF;
+  }
+  .text h2 {
+    font-family: ApfelGrotezk;
+    font-weight: 900;
+    font-size: 25px;
+  }
+
+  .container1, .container2, .container3, .container4 {
+    width: 24%;
+    display: inline-block;
+    justify-content: space-evenly;
+    padding: 0;
+    padding-bottom: 20;
+    margin: 0;
+  }
+  /* Footer Styles */
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAF3F3;
+    height: 100px;
+  }
+  
+  .footer a {
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
